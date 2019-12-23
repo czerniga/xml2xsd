@@ -16,4 +16,4 @@ jobs:
     - name: Build with dotnet
       run: dotnet build --configuration Release
     - name: Unit Tests
-      run: dotnet test xml2xsd.lib.tests\xml2xsd.lib.tests.csproj 
+      run: dotnet test xml2xsd.lib.tests/xml2xsd.lib.tests.csproj 
